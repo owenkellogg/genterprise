@@ -1,0 +1,22 @@
+{
+  "name": "ripple_address",
+  "plural": "ripple_addresses",
+  "base": "PersistedModel",
+  "properties": {
+    "account": {
+      "type": "string",
+      "required": true
+    },
+    "tag": {
+      "type": "number"
+    },
+    "type": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}

@@ -1,0 +1,55 @@
+{
+  "name": "ripple_payments",
+  "base": "PersistedModel",
+  "properties": {
+    "source_address_id": {
+      "type": "number",
+      "required": true
+    },
+    "source_amount": {
+      "type": "number",
+      "required": true
+    },
+    "source_currency": {
+      "type": "string",
+      "required": true
+    },
+    "source_issuer": {
+      "type": "string",
+      "required": true
+    },
+    "destination_address_id": {
+      "type": "number",
+      "required": true
+    },
+    "destination_amount": {
+      "type": "number",
+      "required": true
+    },
+    "destination_currency": {
+      "type": "string",
+      "required": true
+    },
+    "destination_issuer": {
+      "type": "string",
+      "required": true
+    },
+    "state": {
+      "type": "string",
+      "required": true
+    },
+    "transaction_state": {
+      "type": "string"
+    },
+    "transaction_hash": {
+      "type": "string"
+    },
+    "invoice_id": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
